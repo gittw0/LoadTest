@@ -31,6 +31,7 @@
   <con:entry key="ThreadCount" value=""/>
   <con:entry key="Limit" value=""/>
 </xml-fragment>]]></con:setting>
+    <con:setting id="50260edc-b2e0-49c3-9e2a-76fbd9efa6adfileName">LoadUI-Sample-Project</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>

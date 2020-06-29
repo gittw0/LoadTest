@@ -17,6 +17,7 @@
       <con1:property propagates="true" key="Temporary project" type="java.lang.String"/>
       <con1:property propagates="true" key="ModelItem.rate" type="java.lang.Long">10</con1:property>
       <con1:property propagates="true" key="ModelItem.loadDistributionType" type="com.smartbear.load.facade.LoadDistributionType">PerScenario</con1:property>
+      <con1:property propagates="true" key="ModelItem.id" type="java.lang.String">fb7dd8c2-c706-4dce-9d59-4cb15087b4cb</con1:property>
     </con1:properties>
     <con1:attributes>
       <con1:property key="limits">Time=60;</con1:property>
@@ -63,7 +64,7 @@
           <con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">false</con1:property>
           <con1:property propagates="true" key="load" type="java.lang.Long">3</con1:property>
           <con1:property propagates="true" key="interval" type="java.lang.Long">1000</con1:property>
-          <con1:property propagates="true" key="limitVU" type="java.lang.Long">10</con1:property>
+          <con1:property propagates="true" key="limitVU" type="java.lang.Long">9223372036854775807</con1:property>
         </con1:properties>
         <con1:attributes>
           <con1:property key="com.eviware.loadui.api.model.ComponentItem@type">Fixed Load</con1:property>
@@ -89,6 +90,7 @@
       <con1:connection outputTerminalId="f7518b1a-65c2-428e-b9fd-2f68e2616ff8/triggerTerminal" inputTerminalId="e213f837-977c-497b-bc2b-529d581cfa2a/triggerTerminal"/>
       <con1:connection outputTerminalId="e213f837-977c-497b-bc2b-529d581cfa2a/runningTerminal" inputTerminalId="f7518b1a-65c2-428e-b9fd-2f68e2616ff8/Sample Count"/>
     </con1:scene>
+    <con1:sceneAssignment sceneRef="4b5d33f9-f1d9-4e4d-900b-8460937e67e7" agentRef="e57d413f-b914-425f-a504-e4a6aea47dbe" agentLabel="BaseAgent" agentAddress="http://127.0.0.0:1991/" enabled="true"/>
     <con1:statistics>
       <con1:page title="DefaultLoadUIStatisticPage">
         <con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="" groupType="Monitors">
@@ -96,6 +98,14 @@
         </con1:chartGroup>
       </con1:page>
     </con1:statistics>
+    <con1:agent url="http://127.0.0.0:1991/" label="BaseAgent" id="e57d413f-b914-425f-a504-e4a6aea47dbe">
+      <con1:properties>
+        <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
+        <con1:property propagates="true" key="AgentItem.maxThreads" type="java.lang.Long">1000</con1:property>
+      </con1:properties>
+      <con1:attributes/>
+      <con1:addons/>
+    </con1:agent>
   </con1:loadui-project>
   <con:loadUITestScenario projectId="177d63aa-da34-40b2-9c1b-bfd1ae5e6e14" scenarioId="4b5d33f9-f1d9-4e4d-900b-8460937e67e7" name="DefaultLoadUITest" id="c3fb6d17-e58b-479a-aa23-c3718b7d9447">
     <con:settings/>
