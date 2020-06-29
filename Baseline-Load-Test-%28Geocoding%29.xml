@@ -90,7 +90,7 @@
       <con1:connection outputTerminalId="f7518b1a-65c2-428e-b9fd-2f68e2616ff8/triggerTerminal" inputTerminalId="e213f837-977c-497b-bc2b-529d581cfa2a/triggerTerminal"/>
       <con1:connection outputTerminalId="e213f837-977c-497b-bc2b-529d581cfa2a/runningTerminal" inputTerminalId="f7518b1a-65c2-428e-b9fd-2f68e2616ff8/Sample Count"/>
     </con1:scene>
-    <con1:sceneAssignment sceneRef="4b5d33f9-f1d9-4e4d-900b-8460937e67e7" agentRef="e57d413f-b914-425f-a504-e4a6aea47dbe" agentLabel="BaseAgent" agentAddress="http://127.0.0.0:1991/" enabled="true"/>
+    <con1:sceneAssignment sceneRef="4b5d33f9-f1d9-4e4d-900b-8460937e67e7" agentRef="89af327b-7b88-4996-b649-8082b32fabb6" agentLabel="Remote Agent" agentAddress="http://127.0.0.1:1991/" enabled="true"/>
     <con1:statistics>
       <con1:page title="DefaultLoadUIStatisticPage">
         <con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="" groupType="Monitors">
@@ -98,7 +98,7 @@
         </con1:chartGroup>
       </con1:page>
     </con1:statistics>
-    <con1:agent url="http://127.0.0.0:1991/" label="BaseAgent" id="e57d413f-b914-425f-a504-e4a6aea47dbe">
+    <con1:agent url="http://127.0.0.1:1991/" label="Remote Agent" id="89af327b-7b88-4996-b649-8082b32fabb6">
       <con1:properties>
         <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
         <con1:property propagates="true" key="AgentItem.maxThreads" type="java.lang.Long">1000</con1:property>
